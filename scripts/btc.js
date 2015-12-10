@@ -19,7 +19,7 @@ module.exports =  function(robot) {
             var btc = usdToBTC(userUSD); 
             return msg.send(btc + ' btc :moneybag:') //:moneybag: for emoji
         } else {
-            return.msg.send ('We can only convert numbers')
+            return msg.send ('We can only convert numbers')
         }
 
     }) 
